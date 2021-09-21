@@ -1,10 +1,17 @@
 .container{
     box-sizing: border-box;
     margin: 0px;
+    font-family: rubic;
+    font-family: 'Rubik Mono One';
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 header{
     position: fixed;
+    margin-left: 80%;
 }
 
 li{
@@ -12,15 +19,18 @@ li{
     background-color: white;
     text-align: center;
     font-size: 20px;
-    height: 20px;
-    width: 20px;
     border-radius: 50%;
-    padding: 10px;
 }
+
 
 a{
     color: black;
     text-decoration: none;
+    padding: 10px;
+}
+
+.ul:hover{
+    text-shadow: 6px 6px black;
 }
 
 .box{
@@ -33,14 +43,16 @@ a{
     top: 40vh;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 60%;
 }
 
 .title{
-    font-size: 50px;
+    font-size: 8vh;
     text-align: center;
     color: yellow;
     text-transform: uppercase; 
     font-weight: bold;
+    padding-bottom: 10%; 
 }
 
 #One{
